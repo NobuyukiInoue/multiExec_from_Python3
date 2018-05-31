@@ -5,7 +5,7 @@ Windows版のPython3からコマンドをマルチプロセスで並列実行するサンプルプログラムで
   
 
 ## システム要件
-*Windows XP/Vista/7/10 or Windows Server 2008/2012/2016  
+*Windows XP/Vista/7/8/10 or Windows Server 2008/2012/2016  
 *Python 3.6以降
 
 ## ダウンロードおよび実行方法
