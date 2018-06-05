@@ -1,7 +1,6 @@
-コマンド並列実行マクロ『multiExec_from_Python3 on Windows』
+コマンド並列実行マクロ  『multiExec_from_Python3 on Windows』  
 ==
-
-Windows版のPython3からコマンドをマルチプロセスで並列実行するサンプルプログラムです。  
+Windows版のPython3からコマンドをマルチプロセスで並列実行するサンプルプログラムです。   
   
 
 ## システム要件
@@ -24,14 +23,12 @@ Windows版のPython3からコマンドをマルチプロセスで並列実行するサンプルプログラムで
 >python multiExec.py cmdListFileName <maxProcessCount> <interval> <retryCount> <waitExit>
 ```
   
-実行例１  
-（最大プロセス数 = 4, プロセス一覧取得間隔 = 4[s], プロセス一覧再取得回数  = 4, 起動したプロセスの終了を待たない）  
+実行例１（最大プロセス数 = 4, プロセス一覧取得間隔 = 4[s], プロセス一覧再取得回数  = 4, 起動したプロセスの終了を待たない）  
 ```
 >python multiExec.py cmdList.txt
 ```
 
-実行例２
-（最大プロセス数 = 4, プロセス一覧取得間隔 = 4[s], プロセス一覧再取得回数  = 4, 起動したプロセスの終了を待つ）  
+実行例２（最大プロセス数 = 4, プロセス一覧取得間隔 = 4[s], プロセス一覧再取得回数  = 4, 起動したプロセスの終了を待つ）  
 >python multiExec.py cmdList.txt 4 4 4 1
 
 
