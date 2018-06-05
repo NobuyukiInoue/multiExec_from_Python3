@@ -21,12 +21,12 @@ Windows版のPython3からコマンドをマルチプロセスで並列実行するサンプルプログラムで
 
 2.下記の書式でPythonスクリプトを実行します。
 ```
->python multiExec_20180531.py cmdListFileName <maxProcessCount> <interval> <retryCount> <nowait>
+>python multiExec.py cmdListFileName <maxProcessCount> <interval> <retryCount> <nowait>
 ```
   
 実行例  
 ```
->python multiExec_20180531.py cmdList.txt
+>python multiExec.py cmdList.txt
 ```
 
 
